@@ -69,7 +69,7 @@
           term: term.value,
         };
 
-        fetch("http://localhost:3000/search?" + new URLSearchParams(query), {
+        fetch("https://get-company.herokuapp.com/search?" + new URLSearchParams(query), {
           method: "get",
         })
           .then((res) => {
